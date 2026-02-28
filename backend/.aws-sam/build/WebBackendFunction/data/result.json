@@ -1,0 +1,119 @@
+{
+  "big_five_personality_traits": [
+    {
+      "domain_id": 1,
+      "domain_name_jp": "外向性",
+      "domain_name_en": "Extraversion",
+      "domain_description": "外向性が高い人は、全体として活発で社交的な傾向があります。",
+      "facets": [
+        {
+          "facet_name_jp": "社交性",
+          "facet_name_en": "Sociability",
+          "description": "他者と積極的に関わろうとする欲求が強く、おしゃべりで社交的な傾向があります。"
+        },
+        {
+          "facet_name_jp": "自己主張性",
+          "facet_name_en": "Assertiveness",
+          "description": "対人関係の場面で自分の意見や目標をためらわずに表現し、主導権を握ってリーダーとして振る舞う傾向があります。"
+        },
+        {
+          "facet_name_jp": "活力",
+          "facet_name_en": "Energy Level",
+          "description": "身体的な活動レベルが高く、エネルギーに満ちあふれています。また、情熱や興奮といったポジティブな感情を豊かに表現します。"
+        }
+      ]
+    },
+    {
+      "domain_id": 2,
+      "domain_name_jp": "協調性",
+      "domain_name_en": "Agreeableness",
+      "domain_description": "協調性が高い人は、他者に対して思いやりがあり、良好な関係を築きやすい傾向があります。",
+      "facets": [
+        {
+          "facet_name_jp": "思いやり",
+          "facet_name_en": "Compassion",
+          "description": "他者の幸福に対して積極的に感情的な関心を寄せます。心が優しく、他人のために進んで手助けをする傾向があります。"
+        },
+        {
+          "facet_name_jp": "敬意",
+          "facet_name_en": "Respectfulness",
+          "description": "他者の好みや権利を尊重して礼儀正しく接します。攻撃的な衝動や反発を抑え、丁寧で思いやりのある態度をとります。"
+        },
+        {
+          "facet_name_jp": "信用",
+          "facet_name_en": "Trust",
+          "description": "他者に対して「人は基本的に善良である」という肯定的な信念を持っています。人の良いところを見つけようとし、寛大で人を許す傾向があります。"
+        }
+      ]
+    },
+    {
+      "domain_id": 3,
+      "domain_name_jp": "勤勉性",
+      "domain_name_en": "Conscientiousness",
+      "domain_description": "勤勉性が高い人は、自己統制力があり、目標に向けて真面目に取り組む傾向があります。",
+      "facets": [
+        {
+          "facet_name_jp": "秩序",
+          "facet_name_en": "Organization",
+          "description": "秩序やルール、構造化された状態を好みます。几帳面で、身の回りのものをきれいに整頓しておく傾向があります。"
+        },
+        {
+          "facet_name_jp": "生産性",
+          "facet_name_en": "Productiveness",
+          "description": "職業倫理（ワークエシックス）が高く、目標に向かって効率よく行動します。与えられた課題が終わるまで根気強く最後までやり遂げます。"
+        },
+        {
+          "facet_name_jp": "責任感",
+          "facet_name_en": "Responsibility",
+          "description": "自分の義務や約束を果たすことへの責任感が強いです。真面目でしっかりしており、周囲から「常に頼りにされる」信頼感を持っています。"
+        }
+      ]
+    },
+    {
+      "domain_id": 4,
+      "domain_name_jp": "否定的情動性 / 神経症傾向",
+      "domain_name_en": "Negative Emotionality",
+      "domain_description": "このスコアが高い人は、ネガティブな感情（不安、悲しみ、怒りなど）を頻繁に、あるいは強く経験しやすい傾向があります。",
+      "facets": [
+        {
+          "facet_name_jp": "不安",
+          "facet_name_en": "Anxiety",
+          "description": "恐れや不安を経験しやすく、心配事を多く抱えたり、神経が張り詰めて緊張しやすい傾向があります。"
+        },
+        {
+          "facet_name_jp": "抑うつ",
+          "facet_name_en": "Depression",
+          "description": "悲しみや気分の落ち込みを感じやすい傾向があります。憂うつになりやすく、それに伴って活動のエネルギーが低下しがちです。"
+        },
+        {
+          "facet_name_jp": "情緒不安定性",
+          "facet_name_en": "Emotional Volatility",
+          "description": "感情の起伏が激しく、気分が変わりやすい（気分屋な）傾向があります。些細なことで感情的になったり、不機嫌になりやすいです。"
+        }
+      ]
+    },
+    {
+      "domain_id": 5,
+      "domain_name_jp": "開放性",
+      "domain_name_en": "Open-Mindedness",
+      "domain_description": "開放性が高い人は、新しい経験や複雑な思考、芸術に対して受容的です。",
+      "facets": [
+        {
+          "facet_name_jp": "知的好奇心",
+          "facet_name_en": "Intellectual Curiosity",
+          "description": "知的な関心が高く、考えること自体を好みます。さまざまな物事への好奇心が強く、複雑で深い思考を巡らせる人間です。"
+        },
+        {
+          "facet_name_jp": "美的感性",
+          "facet_name_en": "Aesthetic Sensitivity",
+          "description": "芸術や美に対する感受性が高く、美術、音楽、文学などに深く魅了され、それらを重視する傾向があります。"
+        },
+        {
+          "facet_name_jp": "創造的想像力",
+          "facet_name_en": "Creative Imagination",
+          "description": "創造性や独自性が高く、個性的で新しいアイデアを思いつくのが得意です。また、創意工夫によってうまい方法を見つけ出します"
+        }
+      ]
+    }
+  ]
+}

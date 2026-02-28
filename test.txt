@@ -1,0 +1,46 @@
+{
+  "status": "success",
+  "message": "詳細分析が完了しました",
+  "scores": {
+    "domains": { "Extraversion": 3.8, ... },
+    "facets": { "Sociability": 4.0, ... }
+  },
+  "personality_type": {
+    "code": "EOACN",
+    "catchphrase": "世界を彩る情熱の革命家",
+    "description": "理想が高く、共感力もあり、全力で周囲を巻き込む"
+  }
+}
+
+pip freeze > requirements.txt
+
+https://gemini.google.com/share/85baac3837ec
+
+
+> frontend@0.1.0 dev
+> next dev -H 0.0.0.0
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://0.0.0.0:3000
+
+✓ Starting...
+✓ Ready in 1636ms
+○ Compiling / ...
+
+-----
+FATAL: An unexpected Turbopack error occurred. A panic log has been written to C:\Users\yuki3\AppData\Local\Temp\next-panic-6de13d24d52e972f5562ace851b544a.log.
+
+To help make Turbopack better, report this error by clicking here.
+-----
+
+ GET / 500 in 5.4s (compile: 5.3s, render: 142ms)
+
+-----
+FATAL: An unexpected Turbopack error occurred. A panic log has been written to C:\Users\yuki3\AppData\Local\Temp\next-panic-6de13d24d52e972f5562ace851b544a.log.
+
+To help make Turbopack better, report this error by clicking here.
+-----
+
+ GET / 500 in 24ms (compile: 16ms, render: 9ms)
+ GET / 500 in 22ms (compile: 10ms, render: 12ms)

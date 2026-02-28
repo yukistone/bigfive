@@ -1,0 +1,43 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Resources:
+  WebBackendFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: WebBackendFunction
+      Handler: run.sh
+      Runtime: python3.13
+      Architectures:
+      - x86_64
+      Environment:
+        Variables:
+          AWS_LAMBDA_EXEC_WRAPPER: /opt/bootstrap
+          PORT: '8000'
+      Layers:
+      - Fn::Sub: arn:aws:lambda:${AWS::Region}:753240598075:layer:LambdaAdapterLayerX86:20
+      FunctionUrlConfig:
+        AuthType: NONE
+        Cors:
+          AllowOrigins:
+          - '*'
+          AllowMethods:
+          - '*'
+          AllowHeaders:
+          - '*'
+      Policies:
+      - Statement:
+        - Effect: Deny
+          Action:
+          - logs:CreateLogGroup
+          - logs:CreateLogStream
+          - logs:PutLogEvents
+          Resource: '*'
+    Metadata:
+      SamResourceId: WebBackendFunction
+Outputs:
+  ApiUrl:
+    Description: Lambda Function URL (Free)
+    Value:
+      Fn::GetAtt:
+      - WebBackendFunctionUrl
+      - FunctionUrl

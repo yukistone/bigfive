@@ -1,0 +1,44 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Resources:
+  WebBackendFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ./
+      Handler: run.sh
+      Runtime: python3.13 # ※ご自身のPythonバージョンに合わせてください
+      Architectures:
+        - x86_64
+      Environment:
+        Variables:
+          AWS_LAMBDA_EXEC_WRAPPER: /opt/bootstrap
+          PORT: "8000"
+      Layers:
+        - !Sub arn:aws:lambda:${AWS::Region}:753240598075:layer:LambdaAdapterLayerX86:20
+      
+      # 【変更点1】API Gatewayの代わりに完全無料の「関数URL」を有効化
+      FunctionUrlConfig:
+        AuthType: NONE
+        # Vercel(フロントエンド)からのアクセスを許可するCORS設定
+        Cors:
+          AllowOrigins:
+            - "*"
+          AllowMethods:
+            - "*"
+          AllowHeaders:
+            - "*"
+            
+      #【変更点2】CloudWatch Logsへのログ書き込み権限を明示的に拒否（オフにする）
+      Policies:
+        - Statement:
+          - Effect: Deny
+            Action:
+              - logs:CreateLogGroup
+              - logs:CreateLogStream
+              - logs:PutLogEvents
+            Resource: "*"
+
+Outputs:
+  ApiUrl:
+    Description: "Lambda Function URL (Free)"
+    Value: !GetAtt WebBackendFunctionUrl.FunctionUrl

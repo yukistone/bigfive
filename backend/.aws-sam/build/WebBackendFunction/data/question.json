@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "text": "積極的で、社交的である。",
+    "domain": "Extraversion",
+    "facet": "Sociability",
+    "is_reverse": false
+  },
+  {
+    "id": 2,
+    "text": "思いやりがあり、優しい。",
+    "domain": "Agreeableness",
+    "facet": "Compassion",
+    "is_reverse": false
+  },
+  {
+    "id": 3,
+    "text": "行き当たりばったりな方だ。",
+    "domain": "Conscientiousness",
+    "facet": "Organization",
+    "is_reverse": true
+  },
+  {
+    "id": 4,
+    "text": "リラックスしていて、ストレスにうまく対処している。",
+    "domain": "Negative Emotionality",
+    "facet": "Anxiety",
+    "is_reverse": true
+  },
+  {
+    "id": 5,
+    "text": "芸術的関心があまりない。",
+    "domain": "Open-Mindedness",
+    "facet": "Aesthetic Sensitivity",
+    "is_reverse": true
+  },
+  {
+    "id": 6,
+    "text": "積極的な性格だ。",
+    "domain": "Extraversion",
+    "facet": "Assertiveness",
+    "is_reverse": false
+  },
+  {
+    "id": 7,
+    "text": "礼儀正しく、他人に敬意をもって接する。",
+    "domain": "Agreeableness",
+    "facet": "Respectfulness",
+    "is_reverse": false
+  },
+  {
+    "id": 8,
+    "text": "だらだらと過ごす方だ。",
+    "domain": "Conscientiousness",
+    "facet": "Productiveness",
+    "is_reverse": true
+  },
+  {
+    "id": 9,
+    "text": "失敗を経験しても楽天的なままでいる。",
+    "domain": "Negative Emotionality",
+    "facet": "Depression",
+    "is_reverse": true
+  },
+  {
+    "id": 10,
+    "text": "色々な物事に対する好奇心が強い。",
+    "domain": "Open-Mindedness",
+    "facet": "Intellectual Curiosity",
+    "is_reverse": false
+  },
+  {
+    "id": 11,
+    "text": "めったに興奮したり、熱狂したりしない。",
+    "domain": "Extraversion",
+    "facet": "Energy Level",
+    "is_reverse": true
+  },
+  {
+    "id": 12,
+    "text": "他人の欠点を見つけ出す方だ。",
+    "domain": "Agreeableness",
+    "facet": "Trust",
+    "is_reverse": true
+  },
+  {
+    "id": 13,
+    "text": "しっかりしていて、真面目だ。",
+    "domain": "Conscientiousness",
+    "facet": "Responsibility",
+    "is_reverse": false
+  },
+  {
+    "id": 14,
+    "text": "不機嫌になりやすく、感情の起伏が激しい。",
+    "domain": "Negative Emotionality",
+    "facet": "Emotional Volatility",
+    "is_reverse": false
+  },
+  {
+    "id": 15,
+    "text": "創意工夫が得意で、うまい方法を思いつくことができる。",
+    "domain": "Open-Mindedness",
+    "facet": "Creative Imagination",
+    "is_reverse": false
+  },
+  {
+    "id": 16,
+    "text": "無口な方だ。",
+    "domain": "Extraversion",
+    "facet": "Sociability",
+    "is_reverse": true
+  },
+  {
+    "id": 17,
+    "text": "他人のことを思って心が痛むことはほとんどない。",
+    "domain": "Agreeableness",
+    "facet": "Compassion",
+    "is_reverse": true
+  },
+  {
+    "id": 18,
+    "text": "几帳面で、規則正しく整えることが好きだ。",
+    "domain": "Conscientiousness",
+    "facet": "Organization",
+    "is_reverse": false
+  },
+  {
+    "id": 19,
+    "text": "神経が張り詰めることがある。",
+    "domain": "Negative Emotionality",
+    "facet": "Anxiety",
+    "is_reverse": false
+  },
+  {
+    "id": 20,
+    "text": "芸術、音楽、文学に魅了されている。",
+    "domain": "Open-Mindedness",
+    "facet": "Aesthetic Sensitivity",
+    "is_reverse": false
+  },
+  {
+    "id": 21,
+    "text": "上に立つ方で、リーダーとして活動する。",
+    "domain": "Extraversion",
+    "facet": "Assertiveness",
+    "is_reverse": false
+  },
+  {
+    "id": 22,
+    "text": "他人と言い争いを始める。",
+    "domain": "Agreeableness",
+    "facet": "Respectfulness",
+    "is_reverse": true
+  },
+  {
+    "id": 23,
+    "text": "なかなか作業に取り掛かることができない。",
+    "domain": "Conscientiousness",
+    "facet": "Productiveness",
+    "is_reverse": true
+  },
+  {
+    "id": 24,
+    "text": "安心感を抱いており、心地よい。",
+    "domain": "Negative Emotionality",
+    "facet": "Depression",
+    "is_reverse": true
+  },
+  {
+    "id": 25,
+    "text": "知的で哲学的な考察を避けるようにしている。",
+    "domain": "Open-Mindedness",
+    "facet": "Intellectual Curiosity",
+    "is_reverse": true
+  },
+  {
+    "id": 26,
+    "text": "他の人と比べて活発ではない。",
+    "domain": "Extraversion",
+    "facet": "Energy Level",
+    "is_reverse": true
+  },
+  {
+    "id": 27,
+    "text": "他人を大目に見る寛大な人間だ。",
+    "domain": "Agreeableness",
+    "facet": "Trust",
+    "is_reverse": false
+  },
+  {
+    "id": 28,
+    "text": "少し不注意なところがある。",
+    "domain": "Conscientiousness",
+    "facet": "Responsibility",
+    "is_reverse": true
+  },
+  {
+    "id": 29,
+    "text": "情緒が安定しており、簡単には取り乱さない。",
+    "domain": "Negative Emotionality",
+    "facet": "Emotional Volatility",
+    "is_reverse": true
+  },
+  {
+    "id": 30,
+    "text": "創造性がほとんどない。",
+    "domain": "Open-Mindedness",
+    "facet": "Creative Imagination",
+    "is_reverse": true
+  },
+  {
+    "id": 31,
+    "text": "内気なところがあり、内向的である。",
+    "domain": "Extraversion",
+    "facet": "Sociability",
+    "is_reverse": true
+  },
+  {
+    "id": 32,
+    "text": "進んで手伝おうとし、他人の利益を優先する。",
+    "domain": "Agreeableness",
+    "facet": "Compassion",
+    "is_reverse": false
+  },
+  {
+    "id": 33,
+    "text": "物事をきれいに揃えたりまとめたりする。",
+    "domain": "Conscientiousness",
+    "facet": "Organization",
+    "is_reverse": false
+  },
+  {
+    "id": 34,
+    "text": "多くの悩みごとを抱えている。",
+    "domain": "Negative Emotionality",
+    "facet": "Anxiety",
+    "is_reverse": false
+  },
+  {
+    "id": 35,
+    "text": "芸術と美を重視する。",
+    "domain": "Open-Mindedness",
+    "facet": "Aesthetic Sensitivity",
+    "is_reverse": false
+  },
+  {
+    "id": 36,
+    "text": "人々の行動を左右するような影響力をもつことは難しいと感じる。",
+    "domain": "Extraversion",
+    "facet": "Assertiveness",
+    "is_reverse": true
+  },
+  {
+    "id": 37,
+    "text": "他人を見下すことがある。",
+    "domain": "Agreeableness",
+    "facet": "Respectfulness",
+    "is_reverse": true
+  },
+  {
+    "id": 38,
+    "text": "手際よく行動し、物事を最後までやり遂げる。",
+    "domain": "Conscientiousness",
+    "facet": "Productiveness",
+    "is_reverse": false
+  },
+  {
+    "id": 39,
+    "text": "よく悲しい気分になる。",
+    "domain": "Negative Emotionality",
+    "facet": "Depression",
+    "is_reverse": false
+  },
+  {
+    "id": 40,
+    "text": "考え方が複雑で、深く考える人間だ。",
+    "domain": "Open-Mindedness",
+    "facet": "Intellectual Curiosity",
+    "is_reverse": false
+  },
+  {
+    "id": 41,
+    "text": "活力にあふれている。",
+    "domain": "Extraversion",
+    "facet": "Energy Level",
+    "is_reverse": false
+  },
+  {
+    "id": 42,
+    "text": "他人が考えていることを怪しんで不信感を抱く。",
+    "domain": "Agreeableness",
+    "facet": "Trust",
+    "is_reverse": true
+  },
+  {
+    "id": 43,
+    "text": "ちゃんとしていて、いつも周りから当てにされる。",
+    "domain": "Conscientiousness",
+    "facet": "Responsibility",
+    "is_reverse": false
+  },
+  {
+    "id": 44,
+    "text": "自分の感情をコントロールしている。",
+    "domain": "Negative Emotionality",
+    "facet": "Emotional Volatility",
+    "is_reverse": true
+  },
+  {
+    "id": 45,
+    "text": "ものごとを自由に心に思い描くのは難しい。",
+    "domain": "Open-Mindedness",
+    "facet": "Creative Imagination",
+    "is_reverse": true
+  },
+  {
+    "id": 46,
+    "text": "おしゃべりな方だ。",
+    "domain": "Extraversion",
+    "facet": "Sociability",
+    "is_reverse": false
+  },
+  {
+    "id": 47,
+    "text": "冷淡で思いやりに欠けることがある。",
+    "domain": "Agreeableness",
+    "facet": "Compassion",
+    "is_reverse": true
+  },
+  {
+    "id": 48,
+    "text": "乱雑なものはそのままにして、きれいにしない。",
+    "domain": "Conscientiousness",
+    "facet": "Organization",
+    "is_reverse": true
+  },
+  {
+    "id": 49,
+    "text": "不安や恐れを感じることはめったにない。",
+    "domain": "Negative Emotionality",
+    "facet": "Anxiety",
+    "is_reverse": true
+  },
+  {
+    "id": 50,
+    "text": "詩や演劇をつまらないと思う。",
+    "domain": "Open-Mindedness",
+    "facet": "Aesthetic Sensitivity",
+    "is_reverse": true
+  },
+  {
+    "id": 51,
+    "text": "他の人にリーダーシップを発揮してもらうほうが良いと思う。",
+    "domain": "Extraversion",
+    "facet": "Assertiveness",
+    "is_reverse": true
+  },
+  {
+    "id": 52,
+    "text": "他人に丁寧で、礼儀正しい。",
+    "domain": "Agreeableness",
+    "facet": "Respectfulness",
+    "is_reverse": false
+  },
+  {
+    "id": 53,
+    "text": "根気強く、与えられた課題が終わるまで取り組む。",
+    "domain": "Conscientiousness",
+    "facet": "Productiveness",
+    "is_reverse": false
+  },
+  {
+    "id": 54,
+    "text": "憂うつになり、落胆する方だ。",
+    "domain": "Negative Emotionality",
+    "facet": "Depression",
+    "is_reverse": false
+  },
+  {
+    "id": 55,
+    "text": "抽象的な知識にはほとんど関心がない。",
+    "domain": "Open-Mindedness",
+    "facet": "Intellectual Curiosity",
+    "is_reverse": true
+  },
+  {
+    "id": 56,
+    "text": "情熱を大いに表に出す。",
+    "domain": "Extraversion",
+    "facet": "Energy Level",
+    "is_reverse": false
+  },
+  {
+    "id": 57,
+    "text": "人々のいちばん良いところを思い浮かべる。",
+    "domain": "Agreeableness",
+    "facet": "Trust",
+    "is_reverse": false
+  },
+  {
+    "id": 58,
+    "text": "無責任な行動をしてしまうことがある。",
+    "domain": "Conscientiousness",
+    "facet": "Responsibility",
+    "is_reverse": true
+  },
+  {
+    "id": 59,
+    "text": "神経質で、感情的になりやすい。",
+    "domain": "Negative Emotionality",
+    "facet": "Emotional Volatility",
+    "is_reverse": false
+  },
+  {
+    "id": 60,
+    "text": "個性的で、新しいアイディアを思いつく。",
+    "domain": "Open-Mindedness",
+    "facet": "Creative Imagination",
+    "is_reverse": false
+  }
+]
